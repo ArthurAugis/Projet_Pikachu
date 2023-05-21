@@ -1,0 +1,140 @@
+.title {
+
+    color: white;
+
+    background-color: #94E0F0;
+
+    margin: 15px;
+
+    border-color: #2655A5;
+
+    border-radius: 25px;
+
+    width: 180px;
+
+    height: 30px;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-shadow: -2px 0px 0px #417080;
+
+}
+
+
+
+.title:active {
+
+    border-style: outset;
+
+}
+
+
+
+header {
+
+    background-color: #6A87FD;
+
+    margin: -8px;
+
+    border-bottom: 3px solid black;
+
+}
+
+
+
+#pokeball {
+
+    width: 15px;
+
+    height: 15px;
+
+}
+
+
+
+.pokemon-number {
+
+    background-color: #1E2A74;
+
+    color: white;
+
+    font-size: 16px;
+
+    border-radius: 25px;
+
+    height: 30px;
+
+    border-color: #0B1A5F;
+
+}
+
+.pokemon-number:active {
+    border-style: outset;
+}
+
+body {
+    background-color: #5668B4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  #pokemon-img {
+
+    width: 256px;
+
+    height: 256px;
+
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 599px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 90%;
+        background-color: #495cb1;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        min-height: 50vh;
+        margin-top: 80px;
+        color: white;
+      }
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 50%;
+        background-color: #495cb1;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        min-height: 50vh;
+        margin-top: 80px;
+        color: white;
+      }
+}
+
+.button-container {
+    text-align: center; 
+  }
+  
+  .next, .previous {
+    display: inline-block;
+    background-color: #5668B4;
+    color: white;
+    font-size: 16px;
+    border-width: 0px;
+    font-weight: 700;
+    border-radius: 50%;
+  }
