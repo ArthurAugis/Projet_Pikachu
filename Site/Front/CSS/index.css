@@ -171,6 +171,19 @@ body {
     font-weight: 700;
   }
 
+  .github {
+    margin-top: 5px;
+    background-color: #24292e;
+    border-color: #1b1f23;
+    width: 266px;
+    margin-left: -5px;
+    height: 30px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  
+
   @media screen and (max-width: 599px) {
     .pokemon-liste {
       overflow: auto;

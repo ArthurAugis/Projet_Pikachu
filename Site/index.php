@@ -39,7 +39,7 @@
             <a href="Back/login.php"><button class="ajoutpokemon">Modifier le Pokedex</button></a>
             <a href="Front/PHP/search.php"><button class="searchpokemon"><i class="las la-search"></i> Rechercher des Pokémon</button></a>
             <a href="index.php"><button class="resetsearch">Retirer les filtres</button></a>
-            <a href="index.php"><button class="resetsearch">Retirer les filtres</button></a>
+            <a href="https://github.com/ArthurAugis/Projet_Pikachu" target="_blank"><button class="github">Github</button></a>
         </div>
         <div class="pokemon-liste">
             <?php
